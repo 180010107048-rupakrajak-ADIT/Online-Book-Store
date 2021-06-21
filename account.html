@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style/account.css" />
+        <title>Online Book Store</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./img/books-stack-of-three.svg" alt="Books logo" />
+                <h1
+                    style="
+                        font-family: 'Varela Round', sans-serif !important;
+                        margin: 0 !important;
+                    "
+                >
+                    Online Book Store
+                </h1>
+            </div>
+        </header>
+        <nav>
+            <ul class="navlinks">
+                <li class="navlink">
+                    <a href="http://127.0.0.1:5500/index.html">Home</a>
+                </li>
+                <li class="navlink">
+                    <a href="http://127.0.0.1:5500/explore.html">Explore</a>
+                </li>
+                <li class="navlink">
+                    <a href="http://127.0.0.1:5500/wishlist.html">Wishlist</a>
+                </li>
+                <li class="navlink">
+                    <a href="http://127.0.0.1:5500/account.html">Account</a>
+                </li>
+                <li class="navlink">
+                    <a href="http://127.0.0.1:5500/help-and-support.html"
+                        >Help and Support</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <section class="content">
+            <div class="container emp-profile">
+                <form method="post">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="profile-img">
+                                <img src="./img/1.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="profile-head">
+                                <h5>Abc Xyz</h5>
+                                <h6>abcxyz@gmail.com</h6>
+                                <p
+                                    class="proile-rating"
+                                    style="
+                                        font-family: 'Varela Round', sans-serif !important;
+                                    "
+                                >
+                                    RANKINGS : <span>8/10</span>
+                                </p>
+                                <br />
+                                <br />
+                                <ul
+                                    class="nav nav-tabs"
+                                    id="myTab"
+                                    role="tablist"
+                                >
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link active"
+                                            id="home-tab"
+                                            data-toggle="tab"
+                                            href="#home"
+                                            role="tab"
+                                            aria-controls="home"
+                                            aria-selected="true"
+                                            >About</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <button
+                                style="
+                                    width: 125px;
+                                    margin-top: 4px;
+                                    border: none;
+                                    border-radius: 15px;
+                                    padding: 10px;
+                                    color: white;
+                                    background-color: gray;
+                                "
+                            >
+                                Edit Profile
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="profile-work">
+                                <h6
+                                    align="center"
+                                    style="
+                                        padding-top: 15px;
+                                        font-family: 'Varela Round', sans-serif !important;
+                                    "
+                                >
+                                    <u>Your Account's Details</u>
+                                </h6>
+                                <a href="">Your Orders</a><br />
+                                <a href="">Payment</a><br />
+                                <a href="">Review Your Purchases</a>
+                                <a href="">Wishlist</a><br />
+                                <a href="">Your Recommendations</a><br />
+                                <a href="">Memberships & Subscriptions</a><br />
+                                <a href="">Your Addresses</a><br />
+                                <a href="">Your Messages</a><br />
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div
+                                class="tab-content profile-tab"
+                                id="myTabContent"
+                            >
+                                <div
+                                    class="tab-pane fade show active"
+                                    id="home"
+                                    role="tabpanel"
+                                    aria-labelledby="home-tab"
+                                >
+                                    <div class="row" style="margin-top: -40px">
+                                        <div class="col-md-6">
+                                            <label>User Id</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>ABXY123</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Name</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Abc Xyz</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Email</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>abcxyz@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Phone</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>123 456 7890</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Country</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>India</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Occupation</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Book Seller</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="photo-wrapper">
+                <div class="photo">
+                    <img src="./img/books-stack-of-three.svg" alt="" />
+                </div>
+            </div>
+            <div class="info-wrapper">
+                <ul class="info">
+                    <li align="center">About Us</li>
+                    <li align="center">Careers</li>
+                    <li align="center">Privacy Policy</li>
+                    <li align="center">Sitemap</li>
+                </ul>
+                <ul class="info">
+                    <li align="center">Your Account</li>
+                    <li align="center">Returns Centre</li>
+                    <li align="center">100% Purchase Protection</li>
+                    <li align="center">Rights Policy</li>
+                    <li align="center">Terms Of Use</li>
+                    <li align="center">Terms & Conditions</li>
+                </ul>
+                <ul class="info">
+                    <li align="center">Help Center</li>
+                    <li align="center">Contact Us</li>
+                    <li align="center">Authors</li>
+                </ul>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

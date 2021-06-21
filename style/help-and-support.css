@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Varela Round", sans-serif;
+}
+
+header {
+    height: 12vh;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 2vh;
+    width: 40vh;
+    height: 7vh;
+    border-radius: 20vh;
+    background-color: white;
+    display: flex;
+    padding: 0 2vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    height: 5vh;
+}
+
+.logo h1 {
+    font-size: 3.5vh;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    height: 10vh;
+    z-index: 10;
+    background-color: rgb(48, 48, 48);
+}
+
+.navlinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.navlink {
+    position: relative;
+    list-style: none;
+    padding: 2vh;
+    margin: 0 2vh;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: white;
+}
+
+.navlink:nth-child(5) a::after {
+    content: "";
+    position: absolute;
+    width: calc(100% - 4vh);
+    height: 0.5vh;
+    border-radius: 0.7vh;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+}
+
+.banner {
+    height: 50vh;
+    background-color: rgb(168, 168, 168);
+    margin-bottom: 2.5vh;
+}
+
+aside.left {
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 2vh;
+}
+
+aside.right {
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.items {
+    width: 65%;
+    margin: 0 0 2.5vh 2vh;
+}
+
+.item {
+    height: 30vh;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.book-photo-wrapper {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-photo {
+    height: 80%;
+    width: 60%;
+    background-color: rgba(87, 87, 87, 0.212);
+}
+
+.description-wrapper {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.book-title,
+.description {
+    width: 95%;
+}
+
+.book-title {
+    height: 5vh;
+    border-radius: 3vh;
+    background-color: white;
+}
+
+.description {
+    height: 15vh;
+    border-radius: 1vh;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+.item:nth-child(odd) {
+    background-color: rgb(230, 230, 230);
+}
+
+.item:nth-child(even) {
+    background-color: rgb(197, 197, 197);
+}
+
+.heading {
+    height: 6vh;
+    background-color: rgb(68, 68, 68);
+}
+
+aside.left ul li {
+    list-style: none;
+    height: 4vh;
+}
+
+aside.left ul li:nth-child(odd) {
+    background-color: rgb(230, 230, 230);
+}
+
+aside.left ul li:nth-child(even) {
+    background-color: rgb(173, 173, 173);
+}
+
+aside.right .related {
+    margin: 2vh;
+    border-radius: 2vh;
+    height: 40vh;
+    background-color: rgb(223, 223, 223);
+}
+
+aside.right .related:first-child {
+    margin-top: 0;
+}
+
+.content {
+    min-height: 78vh;
+}
+
+footer {
+    height: 45vh;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    padding: 4vh 3vh;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    border-radius: 2vh;
+}
+.photo img {
+    height: 175px;
+}
+
+.info-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+}
+
+ul.info {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul.info li {
+    font-family: "Varela Round", sans-serif !important;
+    font-size: larger;
+    color: white;
+    list-style: none;
+    width: 95%;
+    height: 4vh;
+    border-radius: 2.5vh;
+    background-color: rgb(49, 49, 49);
+    margin-bottom: 1.5vh;
+}
+.ff {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 15px;
+}
+.aa {
+    padding-left: 520px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 30px;
+    height: 100px;
+    width: 1000px;
+}
