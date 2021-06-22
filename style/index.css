@@ -79,7 +79,6 @@ nav {
 }
 
 aside.left {
-    font-family: "Varela Round", sans-serif !important;
     font-size: larger;
     width: 15%;
     background-color: rgb(255, 255, 255);
@@ -134,7 +133,6 @@ aside.right {
 .book-title,
 .description {
     font-size: larger;
-    font-family: "Varela Round", sans-serif !important;
     width: 95%;
 }
 
@@ -240,7 +238,7 @@ ul.info {
 
 ul.info li {
     /* padding-top: 7px; */
-    font-family: "Varela Round", sans-serif !important;
+    
     font-size: larger;
     list-style: none;
     width: 95%;
